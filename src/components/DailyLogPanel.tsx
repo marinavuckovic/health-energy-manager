@@ -12,7 +12,7 @@ export function DailyLogPanel() {
         return (
           <div
             key={date}
-            className={`flex gap-2 justify-between mx-3 p-3 border-b border-gray-400 ${today === date ? 'bg-gray-100' : ''}`}
+            className={`flex gap-2 justify-between flex-wrap mx-3 p-3 border-b border-gray-400 ${today === date ? 'bg-gray-100' : ''}`}
           >
             <p className="font-bold">{formatDate(date)}</p>
             <p className="text-gray-400">

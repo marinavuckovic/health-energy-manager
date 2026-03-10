@@ -40,7 +40,7 @@ export function AddWorkoutForm() {
         + Add new Workout
       </button>
       <form
-        className={`${adding ? 'block' : 'hidden'} m-3 bg-gray-200 rounded shadow-lg px-3 py-1 flex gap-3 justify-evenly`}
+        className={`${adding ? 'block' : 'hidden'} m-3 bg-gray-200 rounded shadow-lg px-3 py-1 flex flex-col lg:flex-row lg:flex-wrap gap-3 justify-evenly`}
         onSubmit={handleAddWorkout}
       >
         <select

@@ -14,12 +14,12 @@ function App() {
         <h1 className="text-center text-md text-gray-400">Track your daily wellness.</h1>
         <WeeklyStatsPanel />
         <FocusTimer />
-        <div className="flex justify-between mx-5">
-          <div className="flex flex-col justify-between w-1/2 m-4 rounded-lg bg-amber-50 p-4 shadow-lg">
+        <div className="flex flex-col justify-between md:flex-row mx-5">
+          <div className="flex flex-col justify-between w-[90%] md:w-1/2  m-4 rounded-lg bg-amber-50 p-4 shadow-lg">
             <WorkoutPanel />
             <AddWorkoutForm />
           </div>
-          <div className="flex flex-col justify-between w-1/2 m-4 rounded-lg bg-amber-50 p-4 shadow-lg">
+          <div className="flex flex-col justify-between w-[90%] md:w-1/2 m-4 rounded-lg bg-amber-50 p-4 shadow-lg">
             <DailyLogPanel />
             <DailyLogForm />
           </div>

@@ -28,8 +28,8 @@ export function WeeklyStatsPanel() {
     recordedDays > 0 ? (energyLevel / recordedDays).toFixed(1) : 'No data yet';
 
   return (
-    <div className="grid grid-cols-4 gap-4 m-10">
-      <div className="h-[150px] bg-amber-50 rounded-xl shadow-lg p-10">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 m-10">
+      <div className=" bg-amber-50 rounded-xl shadow-lg p-10">
         <h1 className="font-bold text-lg  border-b">🏋️ Workouts</h1>
         <p className="pt-3 text-gray-400 ml-5">
           <span className="text-lg text-black font-bold">{workoutsThisWeek}</span> This Week
